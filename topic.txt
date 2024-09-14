@@ -1,0 +1,48 @@
+app1==basic of usestste
+app2==using components
+app3==how to make components
+app4==how to handle rerender and use react.memo
+{
+   virtual DOM :"The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”,
+    representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. 
+    This process is called reconciliation."
+}
+app5==keys in react use to identify elements of array or a list
+app6==wapper in react
+app7==hooks{
+    useEffect
+}
+app8==more into useeffect .useeefect does not reurn a value
+app9==usememo whivh is similler to use useEffect but it store the value and if value change it rerender use memo return a value
+app10==usecallback use to memeorize a function
+{
+    difference between effect and memeo
+ (1)effect only rerender but does not reremember the value
+2-memeo remember the value
+}
+app11==customhook
+app12==useref {
+    help in access dom elements
+}
+app13==routing and reffering to searchbar not realy clint side routingand
+app14==cline side rendering/usenavigaate()
+app15==lazy loading/suspension
+app16==contextapi{
+    .provide : take value as input and it is rap around a parent components
+    usecontext is used in side child to get that value
+}
+app17==recoil{creating an atom
+useRecoilstste
+userecoilvalue
+usesetRecoilstste
+selector:similler to usememo
+
+}
+app18==more recoil
+app19==async data in to an atom by using selector
+app20==dynamc atom usn atom famly
+app21==selectorfamily
+app22==userecoilstateladable
+app23==useeffect lifecycle
+
+
