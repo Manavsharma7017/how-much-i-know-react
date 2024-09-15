@@ -9,6 +9,10 @@ useEffect(()=>{
     window.addEventListener("offline",()=>{
         setonline(false)
     })
+    return ()=>{
+        window.removeEventListener("online")
+        window.removeEventListener("offline")
+    }
 },[])
 return isonline
 }
